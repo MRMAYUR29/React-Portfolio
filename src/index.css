@@ -11,3 +11,8 @@
     font-family: 'Raleway', sans-serif;
   }
 }
+
+.homeImage{
+  filter: drop-shadow(0 -5px 5px #f8f8f8) drop-shadow(0 0 5px #416da7) drop-shadow(0 0 5px #0044ff) drop-shadow(-10px -10px 70px #02404b) drop-shadow(-10px -10px 50px #031a38);
+  animation: 5s ease-in-out infinite;
+}
