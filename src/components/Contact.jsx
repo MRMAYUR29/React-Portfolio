@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div name="contact" className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white">
+    <section name="contact" className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white md:w-full md:h-screen">
       
     <div className="flex flex-col justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
@@ -21,7 +21,7 @@ const Contact = () => {
         </div>
     </div>
 
-    </div>
+    </section>
   )
 }
 
